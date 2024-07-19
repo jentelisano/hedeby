@@ -1,0 +1,13 @@
+{
+  "name": "wms-prototype",
+  "version": "1.0.0",
+  "description": "Hedeby WMS Prototype PWA",
+  "scripts": {
+    "start": "http-server ./public -c-1 --log-ip --verbose"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "http-server": "^0.12.3"
+  }
+}
